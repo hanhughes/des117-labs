@@ -1,0 +1,85 @@
+body {
+    background-image: url(images/buddha.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Didot', serif;
+}
+
+section,
+#zen-supporting {
+    margin-right: 215pt;
+    border-style: solid;
+    border-color: transparent;
+    border-right-width: 25pt;
+    border-left-width: 25pt;
+    background-color: bisque;
+}
+
+section h2 {
+    color: bisque;
+    text-align: center;
+    background: linear-gradient(to right, transparent, #802b00, transparent);
+}
+
+section h3 {
+    color: bisque;
+    text-align: center;
+    background: linear-gradient(to right, transparent, #802b00, transparent);
+}
+
+#zen-supporting h3 {
+    color: bisque;
+    text-align: center;
+    background: linear-gradient(to right, transparent, #802b00, transparent);
+}
+
+h1 {
+    color: #802b00;
+    font-size: 48pt;
+    text-align: center;
+    background-image: url(images/buddha.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+section {
+    margin-top: 100pt;
+}
+
+aside {
+    position: absolute;
+    right: 15pt;
+    top: 600pt;
+    bottom: 100pt;
+    width: 200pt;
+    height: 315pt;
+    font-size: .8em;
+    background-color: bisque;
+}
+
+aside h3 {
+    color: bisque;
+    text-align: center;
+    background: linear-gradient(to right, transparent, #802b00, transparent);
+}
+
+footer {
+    position: absolute;
+    right: 15pt;
+    top: 920pt;
+    bottom: 100pt;
+    width: 200pt;
+    height: 25pt;
+    background-color: bisque;
+    text-align: center;
+}
+
+a {
+    color: #802b00;
+    text-decoration: none;
+    font-weight: bolder;
+}

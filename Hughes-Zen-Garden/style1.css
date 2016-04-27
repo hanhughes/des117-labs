@@ -1,0 +1,57 @@
+body {
+    background-image: url(images/zen_rock.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    border-style: solid;
+    border-width: 100pt;
+    border-top-width: 200pt;
+    border-color: transparent;
+    font-family: 'helvetica light', 'helvetica', sans-serif;
+    font-size: 11pt;
+    color: white;
+    text-indent: 10pt;
+}
+
+a {
+    color: beige;
+}
+
+h1,
+h2,
+h3 {
+    background-color: black;
+    text-align: center;
+    color: #ffffe6;
+}
+
+h1 {
+    font-size: 48pt;
+}
+
+h2 {
+    font-size: 18pt;
+}
+
+h3 {
+    font-size: 14pt;
+}
+
+ul {
+    font-size: 10pt;
+}
+
+div {
+    background-image: url(images/water.jpg);
+    background-color: gray;
+    background-position: top;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.page-wrapper {
+    border-color: black;
+    border-style: solid;
+    border-width: 15pt;
+}
