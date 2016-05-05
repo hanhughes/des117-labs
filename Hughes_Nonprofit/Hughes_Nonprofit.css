@@ -1,0 +1,302 @@
+body {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    color: darkgreen;
+    font-size: 11pt;
+    line-height: 15pt;
+    padding:0px;
+    margin:0px;
+    background-image: url(images/acorns.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+     
+}
+
+.content{
+    min-height: 675px;
+}
+
+
+h1 {
+    background: linear-gradient(to right, beige, beige, transparent);
+    padding: 15pt;
+}
+
+h3 {
+    background: linear-gradient(to right, beige, beige, transparent);
+    padding: 15pt;
+    text-align: center;
+    margin-top: 0;
+}
+
+h4 {
+    text-align: center;
+}
+
+.involve div {
+    background-color: rgba(245, 245, 220, 0.7);
+    margin: 10pt;
+    min-height: 300pt;
+}
+
+.info section,
+.contact section {
+    background-color: rgba(245, 245, 220, 0.7);
+    margin: 10pt;
+    min-height: 300pt;
+}
+
+.info p, .involve p {
+    padding-left:15pt;
+    padding-right:15pt;
+    padding-bottom:0pt;
+    padding-top:0pt;
+}
+
+.contact p {
+    padding-left: 15pt;
+    padding-right: 15pt;
+    text-align: center;
+}
+
+.info ul {
+    padding: 15pt;
+    margin-left: 15pt;
+}
+
+.involve ul{
+    list-style: none;
+    text-align: center;
+    padding-left:15pt;
+    padding-right:15pt;
+    padding-bottom:15pt;
+    padding-top:0pt;
+}
+
+.people ul {
+    list-style: none;
+}
+
+.people li {
+    text-align: center;
+    display: inline-block;
+    margin-right: 25px;
+    margin-bottom: 25px;
+}
+
+.people img {
+    width: 100pt;
+    border-radius: 100pt;
+}
+
+form {
+    padding-left:15pt;
+    padding-right:15pt;
+    padding-bottom:25pt;
+    padding-top:0pt;
+}
+
+input {
+    width: 100%;
+}
+
+input[type=text]:focus {
+    background-color: beige;
+    color: darkgreen;
+    font-weight: bolder;
+    font-size: 12pt;
+}
+
+input[type=number]:focus {
+    background-color: beige;
+    color: darkgreen;
+    font-weight: bolder;
+    font-size: 12pt;
+}
+
+input[type=month]:focus {
+    background-color: beige;
+    color: darkgreen;
+    font-weight: bolder;
+    font-size: 12pt;
+}
+
+input[type=submit]:focus {
+    background-color: beige;
+    color: darkgreen;
+    font-weight: bolder;
+    font-size: 12pt;
+}
+
+a {
+    color: darkgreen;
+    text-decoration: none;
+}
+
+.one-fourth {
+    width: 25%;
+}
+
+.one-third {
+    width: 30%
+}
+
+.one-half {
+    width: 50%:
+}
+
+.half {
+    width: 45%;
+}
+
+header {
+    height: 75pt;
+    background-color: beige;
+    position: relative;
+}
+
+#biglogo {
+    height: 300pt;
+    width: 300pt
+}
+
+#logo {
+    height: 60pt;
+    float: left;
+    background-image: url(images/littlelogo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    padding-top: 15pt;
+    margin-left: 15pt;
+}
+
+.row:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.column {
+    float: left;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+nav ul {
+    font-size: 14pt;
+    line-height: 20pt;
+    padding-top: 35pt;
+    text-align: center;
+    word-spacing: 15pt;
+    background-color: beige;
+}
+
+nav a {
+    padding: 5pt;
+}
+
+.container {
+    height: 300pt;
+    width: 300pt;
+    transform: rotate(45deg);
+    background-color: beige;
+    margin-top: 100pt;
+    margin-left: 100pt;
+}
+
+.container2 {
+    height: 300pt;
+    width: 300pt;
+    transform: rotate(0deg);
+    background-color: transparent;
+    margin-top: 100pt;
+    margin-left: 100pt;
+}
+
+#biglogo {
+    float: left;
+    background-image: url(images/logo-color.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    transform: rotate(-45deg);
+}
+
+#buttons h2 {
+    height: 70pt;
+    width: 90pt;
+    background-color: beige;
+    text-align: center;
+    padding-top: 20pt;
+}
+
+#buttons h2:hover {
+    background-color: darkgreen;
+    color: beige;
+}
+
+nav a:hover {
+    background-color: darkgreen;
+    color: beige;
+}
+
+footer a:hover {
+    background-color: green;
+}
+
+#buttons {
+    display: block;
+    background-color: transparent;
+    float: right;
+    margin-top: -15pt;
+    font-size: 12pt;
+}
+
+footer {
+    height: 30pt;
+    background-color: beige;
+    padding-top: 20pt;
+    margin-bottom: 0pt;
+    padding-left: 20pt;
+    padding-right: 20pt;
+    clear: both;
+    width:95%;
+    bottom:0px;
+    
+}
+
+footer ul {
+    text-align: right;
+    list-style: none;
+    float:right;
+    padding: 0;
+    margin:0;
+}
+
+footer ul li {
+    display: inline-block;
+}
+
+.project {
+    height: 300pt;
+    width: 100%;
+    float: left;
+    background-image: url(images/map.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.contact a:hover, .involve a:hover {
+    display: block;
+    background-color: darkgreen;
+    color: beige;
+    
+}
