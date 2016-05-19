@@ -1,0 +1,190 @@
+<!doctype html>
+<html>
+
+<head>
+<meta name="image:Background Image" content=""/>
+<script src="https://use.fontawesome.com/7b47685afc.js"></script>
+
+    <style>
+    
+    *{
+       
+    }
+        body{
+            text-align: center;
+            font-family: font-family: 'Caslon', 'Times New Roman', 'Baskerville', 'sanserif';
+            font-size: 12pt;
+            color: darkgreen;
+            background-image:url('{image:Background Image}');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            background-attachment: fixed;
+            min-width: 1000px;
+        }
+        
+        header{
+            background-color: rgba(255,255,255,0.9);
+          padding: 25px;
+           width: 300px;
+           float: left;
+           position: fixed;
+           left: 50px;
+           top: 50px;
+           border-radius: 25px;
+        }
+        
+        img {
+            width: 100%;
+            height: auto;
+            margin:auto;
+        }
+        
+        
+       h1{
+            font-size: 90pt;
+            text-align: left;
+           width: 50%;
+           min-width: 500px;
+            margin: auto;
+            float: right;
+            clear: both;
+            color: white;
+            padding-top: 100px;
+          padding-bottom: 100px;
+        }
+        
+        h2{
+            font-size: 22pt;
+        }
+        
+        h3{
+            font-size: 22pt;
+        }
+        
+        a{
+            color:green;
+            text-decoration:none;
+            border-radius: 10px;
+        }
+        
+        a:hover{
+            padding:5px;
+            background-color: darkgreen;
+            color:beige;
+        }
+        
+        .center{
+            text-align: center;
+        }
+        
+        #profile-image {
+            border-radius: 200px;
+            width: 25%;
+        }
+        
+        .post{
+            background-color: rgba(255,255,255,0.9);
+            margin-bottom: 50px;
+            padding: 25px;
+            text-align: left;
+            border-radius: 25px;
+        }
+        
+        .social-media{
+            list-style-type: none;
+            font-size: 20pt;
+            margin-right: 10pt;
+        }
+        
+        .social-media li{
+            display: inline;
+            margin-right: 25px;
+        }
+        
+        .date{
+            list-style-type: none;
+            text-align: right;
+            margin-bottom: 25px;
+        }
+        
+        .date li{
+            display:inline;
+        }
+        
+        
+        .post-title{
+            text-align: center;
+        }
+        
+        
+        #main-content {
+           width: 50%;
+           min-width: 500px;
+           max-width: 800px;
+             margin: auto;
+             margin-right: 50px;
+            float: right;
+           clear: both;
+        }
+        
+        #profile-image{
+            width: 50%
+        }
+        
+        
+    </style>
+</head>
+
+<body>
+
+    <h1 > {Title} </h1>
+    
+    <header>
+        <p class="center"><img src="{PortraitURL-128}" id="profile-image"></p>
+        <h2> {Description} </h2>
+        <ul class="social-media">
+            <li><a href="https://www.pinterest.com/hannahhughes16/"><i class="fa fa-pinterest-square" aria-hidden="true"></i></a></li>
+            <li><a href="facebook.com"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+            <li><a href="instagram.com"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+            <li><a href="behance.net"><i class="fa fa-behance-square" aria-hidden="true"></i></a></li>
+        </ul>
+        
+        
+    </header>
+    
+    <div id="main-content">
+    
+   {block:Posts} 
+   
+        {block:Text}
+        <div class="post">
+            <div class="post-title">
+                <h3 > {Title} </h3> 
+                {block:Date}
+                    <ul class="date">
+                           <li>{Month}</li>
+                        <li>{DayOfMonth}</li>
+                    </ul>
+                {/block:Date}
+            </div>
+                 {Body} 
+                 <div class="buttons">
+                 {LikeButton} {ReblogButton}</div>
+        </div>
+        {/block:Text} 
+        
+       
+        {block:Photo} 
+        <div class="post">
+            <img src="{PhotoURL-HighRes}">
+            {caption}
+            {LikeButton} {ReblogButton}
+        </div>
+        {/block:Photo}
+
+    {/block:Posts}
+    </div>
+</body>
+
+</html>
